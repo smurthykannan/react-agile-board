@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+}
+
+/* Header */
+.header {
+  margin-bottom: 15px;
+  position: static !important;
+}
+
+.header .logo {
+  flex-grow: 1;
+}
+
+/* Board Page */
+.column-section {
+  display: flex;
+  direction: ltr;
+  overflow-x: auto;
+}
+
+.column-section .list-container {
+  margin: 8px;
+  display: flex;
+  width: 100%;
+}
+
+.column-section .icon {
+  cursor: pointer;
+}
+
+.column-section .list-container .card-list {
+  min-height: 600px;
+  display: flex;
+  background-color: #d7dce8;
+  min-width: 300px;
+  border-radius: 5px;
+  padding: 15px 15px;
+  margin-right: 20px;
+  flex-direction: column;
+}
+
+.column-section .list-container .card-list .card-header {
+  min-height: 30px;
+}
+
+.column-section .title {
+  font-weight: bold;
+  color: #333333;
+  font-size: 16;
+  margin-bottom: "1.5px";
+}
+
+.column-section .task-card {
+  width: 300px;
+  margin: 8px 1px;
+}
+
+.column-section .task-card .avatar {
+  background-color: #2C5CC9;
+}
+
+.column-section .task-card .content {
+  padding: 10px 16px;
+}
+
+.column-section .task-card .content-title {
+  font-weight: bold;
+  min-height: 48px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+}
+
+.column-section .task-card .task-title {
+  margin-bottom: 1.5px;
+  color: #666666;
+  font-weight: 400;
+}
+
+.column-section .task-card .task-sub-title {
+  margin-bottom: 1.5px;
+  color: #333333;
+  font-weight: bold;
+}
+
+.column-section .task-card .task-heading {
+  color: #333333;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Task Detail Page */
+.task-details {
+  flex-grow: 1;
+  padding: 5px;
+}
+
+.task-details .attachment {
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: 8px;
+}
