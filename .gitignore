@@ -1,0 +1,84 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+/node_modules
+/.pnp
+.pnp.js
+
+# Build output
+/build
+/dist
+
+# Config files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Coverage directory used by testing frameworks
+/coverage
+
+# Parcel-bundler cache (if used)
+/.cache
+.parcel-cache
+
+# Next.js
+.next
+
+# Nuxt.js
+.nuxt
+/dist
+
+# Gatsby files
+.cache/
+/public
+
+# eslint cache
+.eslintcache
+
+# Serverless directories
+/.serverless
+
+# Temporary directories
+/tmp
+.vscode
+
+# Editor directories and files
+.idea
+.vscode/*
+*.sublime-project
+*.sublime-workspace
+
+# MacOS system files
+.DS_Store
+
+# Node and yarn lock files (if you're using either npm or yarn)
+# You can ignore `package-lock.json` if you're using Yarn.
+package-lock.json
+yarn.lock
+
+# Optional: Ignore dependency lockfiles if they are not needed in the project
+# Uncomment if you're sure lock files are unnecessary:
+# npm-shrinkwrap.json
+# yarn.lock
+
+# Optional: Ignore testing framework output
+/test-results
+
+# Optional: Ignore specific package manager config files
+/.yarn/*
+.pnpm-debug.log
+
