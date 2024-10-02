@@ -164,6 +164,7 @@ const AddTaskModal = ({ isOpen, onClose, item }) => {
                 label="Assigned To"
                 type="text"
                 name="assignedTo"
+                autoComplete="off"
                 fullWidth
                 variant="outlined"
                 size="small"

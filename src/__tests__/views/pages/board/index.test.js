@@ -6,9 +6,9 @@ import TasksService from "../../../../services/task-service";
 import LocalStorageAdaptor from "../../../../services/adaptors/local-storage-adaptor";
 import "@testing-library/jest-dom";
 
-jest.mock("react-router-dom", () => ({
-  useNavigate: jest.fn(),
-}));
+// jest.mock("react-router-dom", () => ({
+//   useNavigate: jest.fn(),
+// }));
 
 jest.mock("../../../../services/app-settings-service", () => {
   const mockGetColumns = jest.fn();

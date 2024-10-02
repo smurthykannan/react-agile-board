@@ -65,6 +65,7 @@ const AddColumnModal = ({ isOpen, onClose }) => {
                 type="text"
                 name="name"
                 fullWidth
+                autoComplete="off"
                 variant="outlined"
                 size="small"
                 value={values.name}
